@@ -9,14 +9,15 @@ import {
 import { GoogleAuthProvider, getAuth, onAuthStateChanged } from "firebase/auth";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// put the value on the .env
 const firebaseConfig = {
-    apiKey: "AIzaSyDy3z8eApYyj-t6Feg03C0RdfmqK7WhF1k",
-    authDomain: "fir-renshu.firebaseapp.com",
-    projectId: "fir-renshu",
-    storageBucket: "fir-renshu.appspot.com",
-    messagingSenderId: "300192749779",
-    appId: "1:300192749779:web:961ade4d472ba85c3adc26",
-    measurementId: "G-JMG36M1G6E"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 
 // init firebase app
